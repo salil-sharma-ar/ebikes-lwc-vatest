@@ -48,7 +48,7 @@ jobs:
                     generateReportFile: false
                     login: ${{ secrets.CODESCAN_AUTH_TOKEN }}
                     organization: va-pr
-                    projectKey: GitHub-va-test
+                    projectKey: github-va-test
                     codeScanUrl: https://test.codescan.io/
                     args: |
                       sonar.sources=.
