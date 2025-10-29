@@ -15,9 +15,8 @@ env:
 
 on:
   push:
-    branches: [ "*" ]
+    branches: [ "main", "sit" ]
   pull_request:
-    # The branches below must be a subset of the branches above
     branches: [ "*" ]
 
 permissions:
