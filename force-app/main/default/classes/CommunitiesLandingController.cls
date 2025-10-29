@@ -13,4 +13,9 @@ public with sharing class CommunitiesLandingController {
     public void runCodeScanResolutionTest() {
         System.debug('Created by Salil');
     }
+
+    public List<String> runCodeScanResolutionTestPart2() {
+        System.debug('Created by Salil for Part 2 test');
+        return null;
+    }
 }
