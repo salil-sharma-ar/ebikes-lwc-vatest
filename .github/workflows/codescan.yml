@@ -52,6 +52,7 @@ jobs:
                     projectKey: github-va-test
                     codeScanUrl: https://test.codescan.io/
                     args: |
+                      sonar.branch.name=${{github.base_ref}}
                       sonar.sources=.
                       sonar.exclusions=target/**,**/*.java
                       sonar.analysisCache.enabled=false
