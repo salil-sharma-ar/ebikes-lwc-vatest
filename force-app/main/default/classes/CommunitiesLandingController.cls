@@ -9,4 +9,8 @@ public with sharing class CommunitiesLandingController {
 
     public CommunitiesLandingController() {
     }
+
+    public void runCodeScanResolutionTest() {
+        System.debug('Created by Salil');
+    }
 }
