@@ -8,5 +8,6 @@ public with sharing class CommunitiesLandingController {
     }
 
     public CommunitiesLandingController() {
+        System.debug('Salil');
     }
 }
